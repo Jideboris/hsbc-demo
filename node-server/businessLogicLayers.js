@@ -11,7 +11,6 @@ const getCitiesNumber = async (req, res) => {
   const listCities = rawData.list.filter((x) =>
     x.name.toLowerCase().startsWith(letter.toLowerCase())
   );
-  console.log(listCities.length);
   res.json(listCities.length);
 };
 

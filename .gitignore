@@ -1,1 +1,24 @@
 node_modules
+# Java class files
+*.class
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+ 
+# VS Code
+.vscode/
+ 
+
+# Environment files
+.env
